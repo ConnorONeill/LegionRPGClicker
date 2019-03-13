@@ -1,0 +1,32 @@
+{
+    "id": "a847c8a8-0f87-483a-9b54-809db0f7c44a",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "a847c8a8-0f87-483a-9b54-809db0f7c44a",
+    "children": [
+        "dd5b52ae-59ac-4ceb-812f-f4926bf20030",
+        "1a0a7fa6-d775-46c2-87e6-ea9139cc35ba",
+        "12538948-6433-4baf-976a-9858d9801927",
+        "1cee6b50-3ed9-4356-acff-b35454f8bd42",
+        "1aa44376-8316-4dd0-b00c-106a482beec6",
+        "585eeb5d-29f8-4026-b684-aa7c4acfeeac",
+        "8f8acd28-8f79-46fe-9e76-b4a67292350a",
+        "a0994963-104f-408e-b76a-f90590dc90fb",
+        "c20ca78f-9535-4b44-9a57-6e301bb4be21",
+        "59098467-f083-4f5e-9c46-c9e69373022e",
+        "61a977cd-0c80-4b62-8c31-28d4743d7155",
+        "5604454a-3c12-492d-b6e3-8ec8fed638e8",
+        "02eb6873-d43a-4974-b43f-e626fc248811",
+        "d70b6e6b-11d5-4039-9cc9-b89c1f6bffcd",
+        "ec01daca-e73f-489b-88ca-e0b3e90e71c1",
+        "1c48219c-326c-4f42-84f0-c99d3df58ada",
+        "76777524-9583-4677-aeee-d39d37080787",
+        "84362e95-3112-4b57-9e6a-d9406c1df9dd",
+        "d1f8a9d5-1276-4826-8769-befd3848ee3c",
+        "c61079b3-ba91-4405-8d37-288a45a7e3b3"
+    ],
+    "filterType": "GMObject",
+    "folderName": "Buttons",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}
