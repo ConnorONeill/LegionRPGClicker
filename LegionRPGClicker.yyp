@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "063e32e3-d378-416b-a2cd-be4812e0e766",
+            "Value": {
+                "id": "6d1c5b5b-c4f4-4d26-9200-7e004a73aecc",
+                "resourcePath": "objects\\obj_btnUpgradeCritChance\\obj_btnUpgradeCritChance.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "08f92ac6-52c1-4a5c-b2ee-2469269dd4be",
             "Value": {
                 "id": "077daa67-8e2e-44ce-8b8f-68e9d32b29ae",
@@ -275,6 +283,14 @@
             "Value": {
                 "id": "9005e34d-57c8-4136-9431-144a3f5da3a1",
                 "resourcePath": "objects\\obj_plains\\obj_plains.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "48141f38-577d-4aad-bfd5-b03c62e51097",
+            "Value": {
+                "id": "cbc74094-5c61-4229-9754-c06abecfe3d2",
+                "resourcePath": "objects\\obj_brnUpgradeDamageMulti\\obj_brnUpgradeDamageMulti.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -639,6 +655,22 @@
             }
         },
         {
+            "Key": "9e1875d4-1f38-4512-867c-b14f57257cd8",
+            "Value": {
+                "id": "563b2f44-d116-4afb-ac91-effbfe8cfd7d",
+                "resourcePath": "fonts\\fnt_brian10\\fnt_brian10.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "9ec345e4-e90a-4df4-a5a3-cad37e9a6c6b",
+            "Value": {
+                "id": "e151396f-ad82-419a-b117-0d8e23c4173d",
+                "resourcePath": "objects\\obj_btnUpgradeCritDamage\\obj_btnUpgradeCritDamage.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a0994963-104f-408e-b76a-f90590dc90fb",
             "Value": {
                 "id": "22f45a06-4f0a-494b-83a9-2d459546c98e",
@@ -939,6 +971,14 @@
             "Value": {
                 "id": "f07f7b3b-d331-4f19-a276-51325999700f",
                 "resourcePath": "objects\\obj_ally\\obj_ally.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e02ce2d1-b980-4d01-b4ce-8ae8c9225e2d",
+            "Value": {
+                "id": "2af72e0f-6a21-4dad-83da-1d9cfc9e9719",
+                "resourcePath": "objects\\obj_btnUpgradeGemBase\\obj_btnUpgradeGemBase.yy",
                 "resourceType": "GMObject"
             }
         },

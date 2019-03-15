@@ -1,28 +1,28 @@
 {
-    "id": "02eb6873-d43a-4974-b43f-e626fc248811",
+    "id": "063e32e3-d378-416b-a2cd-be4812e0e766",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_btnUpgradeDamage",
+    "name": "obj_btnUpgradeCritChance",
     "eventList": [
         {
-            "id": "4c38c965-d144-49a4-b916-248103e91cbd",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 6,
-            "m_owner": "02eb6873-d43a-4974-b43f-e626fc248811"
-        },
-        {
-            "id": "711a00c5-eaa6-4de4-b117-71fb05048e67",
+            "id": "ccafdce2-e162-4082-ba9a-a03e60811e38",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "02eb6873-d43a-4974-b43f-e626fc248811"
+            "m_owner": "063e32e3-d378-416b-a2cd-be4812e0e766"
+        },
+        {
+            "id": "37cb14e3-db0a-41b4-9f01-25bcca288e30",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 7,
+            "eventtype": 6,
+            "m_owner": "063e32e3-d378-416b-a2cd-be4812e0e766"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

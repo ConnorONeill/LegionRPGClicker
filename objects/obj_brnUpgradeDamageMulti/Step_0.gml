@@ -2,4 +2,3 @@
 if(global.areaNum > global.woodBaseLevel){
 	event_inherited();
 }
-

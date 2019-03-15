@@ -6,7 +6,7 @@ active = false;
 dir = 0;
 disTrav = 0;
 disReq = 0 ;
-tabName[0] = "Battle";
+tabName[0] = "Damage";
 tabName[1] = "Resources";
 tabName[2] = "Allies";
 tabName[3] = "Premium";
@@ -18,7 +18,7 @@ var bottomBtnHeight = 34;
 //btnHeight/2
 //btnWidth/2
 xSpd = 0;
-vSpd = 0;
+ySpd = 0;
 yDir = 0;
 
 yDisTrav = 0;
