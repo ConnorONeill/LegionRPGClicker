@@ -1,4 +1,4 @@
-base = 300;
+base = 100;
 multi = 3.5;
 strRes = "G";
 variable = global.woodBaseLevel;

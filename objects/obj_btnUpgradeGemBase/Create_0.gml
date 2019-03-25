@@ -1,5 +1,5 @@
 base = 100;
-multi = 1.11;
+multi = 3.5;
 strRes = "G";
 variable = global.gemBaseLevel;
 resource = global.gold;

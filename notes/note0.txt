@@ -1,4 +1,13 @@
 Stuff to add:
-Allies
-Damage upgrades
-Shop
+Allies:
+Ally Abilities
+Info Box
+Party Swapping
+
+Prestige:
+
+
+UI:
+Icons for resources
+Better backgrounds?
+Probs remove nicks face

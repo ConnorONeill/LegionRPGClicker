@@ -70,3 +70,6 @@ if(active = true and y != room_height - sprite_height - btnHBot){
 		moving = false;
 	}	
 }
+
+if(global.menu.active) global.ready = false;
+if(global.menu.ySpd == 0 and !global.menu.active) global.ready = true;

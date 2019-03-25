@@ -45,8 +45,9 @@ if(room == rm_battle){
 			}
 	//if there is no enemy to replace move on to next area, can put all things assosiated to finishing area here
 		}if (global.enemy == noone and global.level == global.enemyNum + 2){
-			if(global.ally[global.areaNum] != noone){
-				global.ally[global.areaNum].unlocked = true;
+			var allyUnl = ceil((global.areaNum+1)/2)-1;
+			if(global.ally[allyUnl] != noone){
+				global.ally[allyUnl].unlocked = true;
 			}
 			global.level = 0;
 			global.areaNum += 1;
@@ -60,14 +61,12 @@ if(room == rm_battle){
 			}
 			var note = instance_create_depth(room_width/2,250,-800,obj_disappearingText);
 			note.text = "New area unlocked: " + string(global.areas[global.areaReal].name);
-			if(global.areaNum = 9 && global.won == false){
+			if(global.areaNum = 30 && global.won == false){
 				global.winTime = global.timer;
 				global.won = true;
 				room_goto(rm_victoryScreen);
 				return;
 			}
-			
-		
 		}
 	var lay_id = layer_get_id("Background");
 	var back_id = layer_background_get_id(lay_id);
