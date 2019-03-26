@@ -8,4 +8,4 @@ variable = global.upgradeWoodClick;
 variableV = global.woodClick;
 baseV = 1;
 event_inherited();
-name = "Stone Click";
+name = "Gem Click";

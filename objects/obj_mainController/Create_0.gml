@@ -40,10 +40,9 @@ global.multiplier = 1;
 
 //Damage level
 global.pDamageLevel = 0;
-global.pCritChanceLevel = 0;
-global.pCritDamageLevel = 0;
+global.pCritChance = 0;
+global.pCritDamage = 2;
 global.pStartDamage = 10000;
-global.pDamageMultiLevel = 0;
 global.pBaseDamageLevel = 0;
 global.pBaseDamage = global.pStartDamage*global.pBaseDamageLevel;
 global.pDamage = global.pStartDamage*(global.pDamageLevel+1)*(global.pBaseDamageLevel+1);
