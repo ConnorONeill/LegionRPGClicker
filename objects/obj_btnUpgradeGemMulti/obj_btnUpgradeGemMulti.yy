@@ -1,38 +1,38 @@
 {
-    "id": "d1f8a9d5-1276-4826-8769-befd3848ee3c",
+    "id": "d0f97a94-b0d1-4bfd-8241-822e65332a7f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_btnUpgradeWoodBase",
+    "name": "obj_btnUpgradeGemMulti",
     "eventList": [
         {
-            "id": "0cd6bf7a-9c77-44ad-91d0-19722cc85e39",
+            "id": "765fea8f-d1bb-4712-a713-83a4d2c414cd",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 7,
             "eventtype": 6,
-            "m_owner": "d1f8a9d5-1276-4826-8769-befd3848ee3c"
+            "m_owner": "d0f97a94-b0d1-4bfd-8241-822e65332a7f"
         },
         {
-            "id": "c4ba6eaa-5dab-4f5a-9e77-1f4ccd58dd71",
+            "id": "7158379b-8062-4c75-a53e-a02211c3920c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "d1f8a9d5-1276-4826-8769-befd3848ee3c"
+            "m_owner": "d0f97a94-b0d1-4bfd-8241-822e65332a7f"
         },
         {
-            "id": "596ae1e4-2080-4c12-9169-2c9e89f8f734",
+            "id": "09481861-131f-4b50-bafb-6bd1beb3e1e8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
-            "m_owner": "d1f8a9d5-1276-4826-8769-befd3848ee3c"
+            "m_owner": "d0f97a94-b0d1-4bfd-8241-822e65332a7f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,6 +53,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "8242cc0f-d4a6-4acd-bf2a-df95aaff937d",
+    "spriteId": "98a9e4b9-0271-481c-ba72-dbbfbf9af656",
     "visible": true
 }

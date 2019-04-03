@@ -60,7 +60,7 @@ if(room == rm_battle){
 			}
 			var note = instance_create_depth(room_width/2,250,-800,obj_disappearingText);
 			note.text = "New area unlocked: " + string(global.areas[global.areaReal].name);
-			if(global.areaNum = 9 && global.won == false){
+			if(global.areaNum = 30 && global.won == false){
 				global.winTime = global.timer;
 				global.won = true;
 				room_goto(rm_victoryScreen);

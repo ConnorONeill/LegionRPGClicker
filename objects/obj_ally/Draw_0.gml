@@ -9,8 +9,3 @@ if(room == rm_battle){
 	}
 
 }
-if(room == rm_upgrades){
-	if(purchased == true){
-		draw_self();
-	}
-}

@@ -2,9 +2,7 @@
 // You can write your code in this editor
 draw_set_valign(fa_top);
 var yPos;
-if(room == rm_upgrades){
-	yPos = 60;	
-}else yPos = 20;
+yPos = 20;
 if (room != rm_victoryScreen){
 	if room == rm_battle draw_set_color(global.areas[global.areaReal].colour) else draw_set_color(c_black);
 	draw_set_font(font[0]);

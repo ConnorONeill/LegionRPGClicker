@@ -9,12 +9,3 @@ if(room == rm_battle){
 		global.enemy = noone;
 	}
 }
-if(room == rm_upgrades){
-	global.ally[0].x = global.partyX;
-	global.ally[0].y = global.partyY;
-	global.ally[1].x = global.ally[0].x + global.ally[0].sprite_width/2 + global.ally[1].sprite_width/2 + 10;
-	global.ally[1].y = global.partyY;
-//	global.ally[2].x = global.ally[1].x + global.ally[1].sprite_width/2 + global.ally[2].sprite_width/2 + 10;
-//	global.ally[2].y = global.partyY;
-	
-}

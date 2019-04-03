@@ -8,4 +8,5 @@ variable = global.upgradeWoodClick;
 variableV = global.woodClick;
 baseV = 1;
 event_inherited();
+colour = c_white;
 name = "Gem Click";

@@ -8,4 +8,5 @@ variableV = global.gemGen;
 baseV = 1;
 resource = global.gold;
 event_inherited();
+colour = c_white;
 name = "Gem Gen";

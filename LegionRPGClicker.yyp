@@ -735,6 +735,14 @@
             }
         },
         {
+            "Key": "b580cdde-1161-49e7-ba7f-2f69c95981fe",
+            "Value": {
+                "id": "27ffc558-febe-4cc1-9060-347378db5e83",
+                "resourcePath": "fonts\\fnt_brian10\\fnt_brian10.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "b9a36108-b332-4762-8f3f-d137b27b26b4",
             "Value": {
                 "id": "01227fa0-45ab-4fa5-ad5a-d83bf21e1da3",
@@ -799,14 +807,6 @@
             }
         },
         {
-            "Key": "c25412eb-55db-480b-9d60-a1dbb84bd6b3",
-            "Value": {
-                "id": "72c87a35-53a1-4ff4-b0fe-0cc2eed267bf",
-                "resourcePath": "rooms\\rm_upgrades\\rm_upgrades.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "c483b52a-ac16-4b55-81e4-fbca6d87b8cb",
             "Value": {
                 "id": "604502a9-d340-4314-9b92-4c6e19f0256f",
@@ -863,6 +863,14 @@
             }
         },
         {
+            "Key": "d0f97a94-b0d1-4bfd-8241-822e65332a7f",
+            "Value": {
+                "id": "aa69cf2c-1b39-4d84-93cf-f2404da4b2af",
+                "resourcePath": "objects\\obj_btnUpgradeGemMulti\\obj_btnUpgradeGemMulti.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d14d42c9-c907-4074-a653-bf13f64fb786",
             "Value": {
                 "id": "323dd6cf-3217-4a45-a3be-3c9ee36ae9f4",
@@ -874,7 +882,7 @@
             "Key": "d1f8a9d5-1276-4826-8769-befd3848ee3c",
             "Value": {
                 "id": "cbadf241-6923-42f3-a94b-f3a60262a11b",
-                "resourcePath": "objects\\obj_btnUpgradeWoodBase\\obj_btnUpgradeWoodBase.yy",
+                "resourcePath": "objects\\obj_btnUpgradeWoodMulti\\obj_btnUpgradeWoodMulti.yy",
                 "resourceType": "GMObject"
             }
         },
