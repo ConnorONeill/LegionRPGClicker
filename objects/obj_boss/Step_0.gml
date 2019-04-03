@@ -7,7 +7,7 @@ if (hp <= 0){
 	global.enemy = noone;
 	global.bossReady = false;	
 	global.gold += round(goldValue);
-	var Gtext = instance_create_depth(mouse_x,mouse_y,-1000,obj_disappearingText);
+	var Gtext = instance_create_depth(mouse_x + 50,mouse_y + 50,-1000,obj_disappearingText);
 	Gtext.text = string("Gold: +" + string(round(goldValue)));
 	Gtext.colour = c_yellow;
 }

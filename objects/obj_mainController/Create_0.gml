@@ -29,9 +29,12 @@ global.partyX = 50;
 global.partyY = room_height-200;
 global.won = false;
 global.winTime = 0;
+//have they unlocked the boss
 global.bossReady = false;
+//what area the player is on, not the amount they have been through
 global.areaReal = 0;
-global.enemyNum = 9;
+//how many enemies per area
+global.enemyNum = 2;
 global.woodBaseLevel = 0;
 global.gemBaseLevel = 0;
 global.resourceBase = 1;
@@ -40,16 +43,22 @@ global.multiplier = 1;
 
 //Damage level
 global.pDamageLevel = 0;
+global.pDamageMultiLevel = 0;
 global.pCritChance = 0;
-global.pCritDamage = 2;
+global.pCritChanceBase = 2;
+global.pCritChanceLevel = 0;
+global.pCritDamage = 1.5;
+global.pCritDamageLevel = 0;
+global.pCritDamageBase = .05;
 global.pStartDamage = 10000;
 global.pBaseDamageLevel = 0;
 global.pBaseDamage = global.pStartDamage*global.pBaseDamageLevel;
 global.pDamage = global.pStartDamage*(global.pDamageLevel+1)*(global.pBaseDamageLevel+1);
-
 //start the timer
 alarm[0] = room_speed;
 
+//is the game ready to take inputs
+global.ready = true;
 
 //put fonts in array
 font[0] = fnt_brian12;
