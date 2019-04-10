@@ -1,2 +1,2 @@
-event_inherited();
 persistent = true;
+colour = c_black;

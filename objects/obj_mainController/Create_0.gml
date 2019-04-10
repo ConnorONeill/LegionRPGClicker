@@ -21,7 +21,6 @@ global.upgradeGemGen = 0;
 global.enemy = noone;
 global.timer = 0;
 global.partySize = 3;
-global.allyX = 50;
 global.allyY = room_height-100;
 global.enemyX = 0;
 global.enemyY = 0;
@@ -37,7 +36,7 @@ global.areaReal = 0;
 global.enemyNum = 2;
 global.woodBaseLevel = 0;
 global.gemBaseLevel = 0;
-global.resourceBase = 1;
+global.resourceBase = 100000;
 
 global.multiplier = 1;
 
@@ -47,13 +46,51 @@ global.pDamageMultiLevel = 0;
 global.pCritChance = 0;
 global.pCritChanceBase = 2;
 global.pCritChanceLevel = 0;
-global.pCritDamage = 1.5;
+global.pCritDamageStart = 1.5;
 global.pCritDamageLevel = 0;
 global.pCritDamageBase = .05;
 global.pStartDamage = 10000;
 global.pBaseDamageLevel = 0;
-global.pBaseDamage = global.pStartDamage*global.pBaseDamageLevel;
 global.pDamage = global.pStartDamage*(global.pDamageLevel+1)*(global.pBaseDamageLevel+1);
+
+
+//Allies
+global.allyBaseCost = 200;
+global.allyCostMulti = 5;
+global.allyUpgradeMulti = 1.15;
+global.allyBaseDamage = 5;
+global.allyDamageMulti = 3;
+
+for(var i=0;i<20;i+=1){ global.ally[i] = noone};
+global.ally[0] = instance_create_depth(room_width/2-500, room_height-300, -10, obj_knight);
+global.ally[1] = instance_create_depth(room_width/2, room_height-300, -10, obj_mage);
+for(i=0;i<20;i+=1){
+	if(global.ally[i] != noone){
+		global.ally[i].num = i;
+	}
+}
+with(obj_ally){
+	if(num > 0){
+		baseCost = global.allyBaseCost*(global.allyCostMulti*num);
+		baseDamage = global.allyBaseDamage * (global.allyDamageMulti*num);
+	}else{
+		baseCost = global.allyBaseCost;
+		baseDamage = global.allyBaseDamage;
+	}
+	cost = round(baseCost*power(global.allyUpgradeMulti,level+1));
+	damage = baseDamage * (level+1);
+}
+
+
+//party stuff
+global.party[0] = noone;
+global.party[1]	= noone;
+global.party[2] = noone;
+global.partyX[0] = 110;
+global.partyX[1] = room_width/2
+global.partyX[2] = room_width - 110;
+global.partySize = 3;
+
 //start the timer
 alarm[0] = room_speed;
 
@@ -73,13 +110,6 @@ global.defaultFont = font[0];
 //plains[1] = obj_enemy2;
 //plains[2] = obj_sabreTooth;
 //plains[3] = noone;
-
-//create allies array
-for(i=0;i<20;i+=1){ global.ally[i] = noone};
-global.ally[0] = instance_create_depth(room_width/2-500, room_height-300, -10, obj_scutts);
-global.ally[1] = instance_create_depth(room_width/2, room_height-300, -10, obj_ultraNick);
-global.ally[2] = noone;
-global.ally[3] = noone;
 
 
 //create party array
