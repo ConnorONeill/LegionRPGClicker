@@ -55,14 +55,6 @@
             }
         },
         {
-            "Key": "05a8f033-16c1-4176-932c-9a290993c3f8",
-            "Value": {
-                "id": "08221e23-7203-4b8b-a401-f3de0f00e791",
-                "resourcePath": "objects\\obj_gunWoman\\obj_gunWoman.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "088d3226-0ee6-4d26-b9bb-e3e512bc6a47",
             "Value": {
                 "id": "6ab6ae0f-f2eb-46fc-a014-d3a07ad484dc",
@@ -124,6 +116,14 @@
                 "id": "999e6eb5-98a4-4613-80b2-f3aa39448aa1",
                 "resourcePath": "views\\125fe4a1-8068-48d8-95d5-81e762c43745.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "139ea054-a93a-439a-93eb-c26cfd9b01d4",
+            "Value": {
+                "id": "4278e00d-94ed-4990-8241-5dff2447de90",
+                "resourcePath": "scripts\\scr_stoneClick\\scr_stoneClick.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "2a044db3-f4f0-4481-947e-46bf41ed09cf",
+            "Value": {
+                "id": "7e0f93a4-67c8-4e43-823e-54b04f80c1d8",
+                "resourcePath": "fonts\\fnt_brian24\\fnt_brian24.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "2cc89abf-b18e-4516-bc96-b6b63907fb57",
             "Value": {
                 "id": "a1643a02-e219-472f-a33b-fe86a9e80145",
@@ -295,6 +303,14 @@
             }
         },
         {
+            "Key": "3f980427-c284-4bf4-9bc7-71c1490443d1",
+            "Value": {
+                "id": "59cf18b9-50f2-4e70-a9df-309e45fd63b2",
+                "resourcePath": "sprites\\spr_rock1\\spr_rock1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "41422de2-fede-433d-9032-1f87a8604d3d",
             "Value": {
                 "id": "3ddecdcc-9cd5-45a4-9d51-2cbc6c6ae56f",
@@ -343,6 +359,14 @@
             }
         },
         {
+            "Key": "480c1788-5531-4f65-b748-a9da0381fb7d",
+            "Value": {
+                "id": "1105b899-c396-486d-9537-a1743d8176b9",
+                "resourcePath": "objects\\obj_archer\\obj_archer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "498a886a-1f01-4401-a6e3-d6309b993e4f",
             "Value": {
                 "id": "0a980381-d2b9-42f2-9e0d-0217e23fdab0",
@@ -363,6 +387,14 @@
             "Value": {
                 "id": "3a82b69f-db2f-4130-b99b-16db4f86dc8d",
                 "resourcePath": "sprites\\spr_lizardman2\\spr_lizardman2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4c502a8f-2f04-4a82-ba5b-f3bdc0200a67",
+            "Value": {
+                "id": "e3cc21ed-0126-4b0a-b00e-5df8670f3546",
+                "resourcePath": "sprites\\spr_archerAtk\\spr_archerAtk.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -463,6 +495,14 @@
             }
         },
         {
+            "Key": "65206096-0d5b-445a-936d-75cc512dc047",
+            "Value": {
+                "id": "4f779c0a-644f-4ff4-8992-cd7a88cf8602",
+                "resourcePath": "sprites\\spr_necromancerIdle\\spr_necromancerIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6663aa64-c847-400a-9394-91e63d137c1f",
             "Value": {
                 "id": "138f8b9e-a28f-45af-a5b2-b2b5421f709c",
@@ -492,6 +532,14 @@
                 "id": "748e5918-bc05-4762-9cad-51eac35e38ad",
                 "resourcePath": "views\\690e0c32-7657-4111-ade7-438452ac33f3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "695a4cc9-2ba0-4ddc-b99f-c4a1b999261c",
+            "Value": {
+                "id": "06c2b8a1-a2f2-4061-a6f1-c6b4d471684a",
+                "resourcePath": "scripts\\scr_godMode\\scr_godMode.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -567,6 +615,14 @@
             }
         },
         {
+            "Key": "731b3708-cc82-4e62-b046-d04862482547",
+            "Value": {
+                "id": "62f7ccbb-a87b-48b3-9090-b2a78f0d3369",
+                "resourcePath": "objects\\obj_necromancer\\obj_necromancer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "73266410-9f9c-4a7c-b6f5-cdc34f34eb11",
             "Value": {
                 "id": "f93a19c1-b234-4751-8e7f-422a93c90371",
@@ -615,10 +671,26 @@
             }
         },
         {
+            "Key": "7aa6b482-cf7d-49c1-9c10-5bbf96f5e464",
+            "Value": {
+                "id": "06735483-6346-465f-9d61-1b5dc8919b6c",
+                "resourcePath": "scripts\\scr_checkParty\\scr_checkParty.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7b7189d6-5bd5-4ec3-8bcd-93b315d6de71",
             "Value": {
                 "id": "d97e142c-241f-497c-94da-03db05f4366d",
                 "resourcePath": "sprites\\spr_btnGold\\spr_btnGold.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7d087025-da49-4e8d-9c6d-c3a5207ac98f",
+            "Value": {
+                "id": "b4389904-4fa1-46aa-ad61-1899676ec668",
+                "resourcePath": "sprites\\spr_necromancerAtk\\spr_necromancerAtk.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -703,10 +775,26 @@
             }
         },
         {
+            "Key": "885df743-41b3-4ad1-b988-dff24baccf2a",
+            "Value": {
+                "id": "0cd69c44-94d2-4c97-b205-8c203af2ad61",
+                "resourcePath": "objects\\obj_mech\\obj_mech.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8865b588-3000-41ee-a0ae-df3804883aa6",
             "Value": {
                 "id": "d43a43e5-06b0-4eae-914a-1a3497e6ac70",
                 "resourcePath": "sprites\\spr_evilNick\\spr_evilNick.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8b13c02b-3a03-47b0-a1ff-3242ed2771e8",
+            "Value": {
+                "id": "a0edc179-f2fe-4f0a-ab5b-a299896b373a",
+                "resourcePath": "sprites\\spr_archerIdle\\spr_archerIdle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -756,6 +844,14 @@
                 "id": "c28214c8-96b8-460f-8066-e5ad8658b846",
                 "resourcePath": "sprites\\spr_btnBlack\\spr_btnBlack.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9ed14c21-15c6-4a76-8a7f-b9a02edd7d1b",
+            "Value": {
+                "id": "d4f0f4d3-d4f0-43d3-ad4f-1ff597344af2",
+                "resourcePath": "objects\\obj_gunWoman\\obj_gunWoman.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -868,6 +964,14 @@
                 "id": "27ffc558-febe-4cc1-9060-347378db5e83",
                 "resourcePath": "fonts\\fnt_brian10\\fnt_brian10.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "b7a1c184-092f-4a12-8aef-54d27d83dc04",
+            "Value": {
+                "id": "893ece1e-c616-49f6-91e8-6c84d82d12dc",
+                "resourcePath": "scripts\\scr_woodClick\\scr_woodClick.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1356,7 +1460,11 @@
         "f7435162-cb96-4864-8269-5aaa2341fdaa",
         "2d4d5af8-490e-44b0-ac6e-8d140f9646fe",
         "79348006-0718-42ce-ae92-a39ffaae649d",
-        "ece19d5d-1a4d-4cd4-aa2d-a8b5e797dbbb"
+        "ece19d5d-1a4d-4cd4-aa2d-a8b5e797dbbb",
+        "b7a1c184-092f-4a12-8aef-54d27d83dc04",
+        "139ea054-a93a-439a-93eb-c26cfd9b01d4",
+        "695a4cc9-2ba0-4ddc-b99f-c4a1b999261c",
+        "7aa6b482-cf7d-49c1-9c10-5bbf96f5e464"
     ],
     "tutorial": ""
 }

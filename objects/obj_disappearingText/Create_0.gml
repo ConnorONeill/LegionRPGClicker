@@ -1,4 +1,6 @@
 text = "";
 alpha = 1;
-colour = c_black;
+colour = global.areas[global.areaReal].colour;
 font = fnt_brian18;
+ySpd = 1;
+alphaLoss = .02;

@@ -1,18 +1,18 @@
 {
-    "id": "05a8f033-16c1-4176-932c-9a290993c3f8",
+    "id": "9ed14c21-15c6-4a76-8a7f-b9a02edd7d1b",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_gunWoman",
     "eventList": [
         {
-            "id": "df108ba6-35f9-4294-94d3-d69755eba1f7",
+            "id": "21e6ad90-92cc-40cd-9942-67790a2a93e9",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "05a8f033-16c1-4176-932c-9a290993c3f8"
+            "m_owner": "9ed14c21-15c6-4a76-8a7f-b9a02edd7d1b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

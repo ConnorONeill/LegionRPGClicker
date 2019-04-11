@@ -3,4 +3,4 @@
 // Inherit the parent event
 event_inherited();
 name = "Gun Woman";
-desc = "Pew Pew Pow";
+desc = "Bang, bang, bang, bang, bang, bang, reload, bang";

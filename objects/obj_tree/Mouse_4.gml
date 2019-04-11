@@ -1,3 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.wood = global.wood + global.woodClick * global.multiplier;
+var woodPlus = scr_woodClick();
+global.wood += woodPlus;
+var wText = instance_create_depth(mouse_x,mouse_y,-50, obj_disappearingText);
+wText.text = string(woodPlus); 

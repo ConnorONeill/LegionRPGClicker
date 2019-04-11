@@ -1,0 +1,1 @@
+return global.resourceBase * (global.upgradeWoodClick + 1) * power(2,global.woodBaseLevel);

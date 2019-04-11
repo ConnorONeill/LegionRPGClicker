@@ -14,3 +14,4 @@ hp = maxHealth;
 alarm[0] = room_speed;
 var randEnemy = irandom_range(0, array_length_1d(global.areas[global.areaReal].enemies) - 1);
 sprite_index = global.areas[global.areaReal].enemies[randEnemy];
+depth = global.menu.depth + 20;

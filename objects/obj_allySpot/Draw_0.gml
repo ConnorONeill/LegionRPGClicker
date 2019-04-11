@@ -1,12 +1,4 @@
 /// @description 
-if(scr_inParty(ally) != -1){
-	image_index = 1;
-}else if(ally != noone and !ally.purchased){
-	//if(){
-		image_index = 2;
-	//}
-}else image_index = 0;
-
 draw_self();
 if(ally != noone){
 	if(ally.purchased){

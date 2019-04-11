@@ -14,7 +14,11 @@
         "77a7bac1-5a06-44b5-b7b4-0542574607a9",
         "f7642840-db4f-4bf2-8cba-8ca22e106a80",
         "29b86fca-1c0a-4c33-b773-92c5bb90553f",
-        "f34023e8-6664-44fb-befe-00a5faaa2e39"
+        "f34023e8-6664-44fb-befe-00a5faaa2e39",
+        "65206096-0d5b-445a-936d-75cc512dc047",
+        "7d087025-da49-4e8d-9c6d-c3a5207ac98f",
+        "8b13c02b-3a03-47b0-a1ff-3242ed2771e8",
+        "4c502a8f-2f04-4a82-ba5b-f3bdc0200a67"
     ],
     "filterType": "GMSprite",
     "folderName": "Allies",

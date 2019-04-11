@@ -25,7 +25,7 @@ global.allyY = room_height-100;
 global.enemyX = 0;
 global.enemyY = 0;
 global.partyX = 50;
-global.partyY = room_height-200;
+
 global.won = false;
 global.winTime = 0;
 //have they unlocked the boss
@@ -33,12 +33,11 @@ global.bossReady = false;
 //what area the player is on, not the amount they have been through
 global.areaReal = 0;
 //how many enemies per area
-global.enemyNum = 2;
+global.enemyNum = 1;
 global.woodBaseLevel = 0;
 global.gemBaseLevel = 0;
-global.resourceBase = 100000;
+global.resourceBase = 1;
 
-global.multiplier = 1;
 
 //Damage level
 global.pDamageLevel = 0;
@@ -49,30 +48,37 @@ global.pCritChanceLevel = 0;
 global.pCritDamageStart = 1.5;
 global.pCritDamageLevel = 0;
 global.pCritDamageBase = .05;
-global.pStartDamage = 10000;
+global.pStartDamage = 1;
+
 global.pBaseDamageLevel = 0;
 global.pDamage = global.pStartDamage*(global.pDamageLevel+1)*(global.pBaseDamageLevel+1);
 
 
 //Allies
-global.allyBaseCost = 200;
+global.allyBaseCost = 100;
 global.allyCostMulti = 5;
 global.allyUpgradeMulti = 1.15;
 global.allyBaseDamage = 5;
-global.allyDamageMulti = 3;
+//global.allyDamageMulti = 3;
 
-for(var i=0;i<20;i+=1){ global.ally[i] = noone};
+//create the ally list
+for(var i=0;i<100;i+=1){ global.ally[i] = noone};
 global.ally[0] = instance_create_depth(room_width/2-500, room_height-300, -10, obj_knight);
-global.ally[1] = instance_create_depth(room_width/2, room_height-300, -10, obj_mage);
-for(i=0;i<20;i+=1){
+global.ally[1] = instance_create_depth(room_width/2-500, room_height-300, -10, obj_archer);
+global.ally[2] = instance_create_depth(room_width/2, room_height-300, -10, obj_mage);
+global.ally[3] = instance_create_depth(room_width/2, room_height-300, -10, obj_gunWoman);
+global.ally[4] = instance_create_depth(room_width/2, room_height-300, -10, obj_necromancer);
+global.ally[5] = instance_create_depth(room_width/2, room_height-300, -10, obj_mech);
+
+for(i=0;i<100;i+=1){
 	if(global.ally[i] != noone){
 		global.ally[i].num = i;
 	}
 }
 with(obj_ally){
 	if(num > 0){
-		baseCost = global.allyBaseCost*(global.allyCostMulti*num);
-		baseDamage = global.allyBaseDamage * (global.allyDamageMulti*num);
+		baseCost = global.allyBaseCost*power(global.allyCostMulti,num);
+		baseDamage = global.allyBaseDamage * (num+1);
 	}else{
 		baseCost = global.allyBaseCost;
 		baseDamage = global.allyBaseDamage;
@@ -89,7 +95,13 @@ global.party[2] = noone;
 global.partyX[0] = 110;
 global.partyX[1] = room_width/2
 global.partyX[2] = room_width - 110;
+global.partyY = room_height-150;
 global.partySize = 3;
+
+for(var i=0; i<global.partySize; i+=1){
+	global.partyCd[i] = -1;
+}
+
 
 //start the timer
 alarm[0] = room_speed;
@@ -124,6 +136,7 @@ global.areas[3] = instance_create_depth(0,0,-500,obj_volcano);
 global.areas[4] = noone
 global.areasCount = array_length_1d(global.areas);
 
+scr_godMode();
 
 //if (global.areaNum == 0){
 //	global.area = plains;

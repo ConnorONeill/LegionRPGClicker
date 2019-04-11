@@ -10,3 +10,9 @@ enum tabs{
 #macro btnWBot 135
 #macro btnHTop 54
 #macro btnWTop 108
+
+enum allyStatus{
+	inParty,
+	outParty,
+	notUnlocked
+}
