@@ -1,5 +1,5 @@
 /// @description 
-if(global.areaNum > global.gemBaseLevel){
+if(scr_multiScript(global.gemBaseLevel)){
 	cost = round(base*power(multi,global.gemBaseLevel));
 	if(cost < base) cost = base; 
 	if(global.gold >= cost){

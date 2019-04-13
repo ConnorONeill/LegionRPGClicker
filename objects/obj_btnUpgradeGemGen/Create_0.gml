@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 base = 12;
-multi = 1.09;
+multi = 1.13;
 strRes = "G";
 variable = global.upgradeGemGen;
 variableV = global.gemGen;

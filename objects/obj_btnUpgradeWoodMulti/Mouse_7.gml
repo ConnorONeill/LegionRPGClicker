@@ -1,4 +1,4 @@
-if(global.areaNum > global.woodBaseLevel){
+if(scr_multiScript(global.woodBaseLevel)){
 	cost = round(base*power(multi,global.woodBaseLevel));
 	if(cost < base) cost = base; 
 	if(global.gold >= cost){

@@ -1,0 +1,1 @@
+return ceil((baseDamage * (level+1))*global.allyMultiplier * power(2,multi));

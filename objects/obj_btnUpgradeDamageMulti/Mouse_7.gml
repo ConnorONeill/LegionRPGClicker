@@ -1,5 +1,5 @@
 /// @description 
-if(global.areaNum > global.pDamageMultiLevel){
+if(scr_multiScript(global.pDamageMultiLevel)){
 	cost = round(base*power(multi,global.pDamageMultiLevel));
 	if(cost < base) cost = base; 
 	if(global.gems >= cost and global.wood >= cost){

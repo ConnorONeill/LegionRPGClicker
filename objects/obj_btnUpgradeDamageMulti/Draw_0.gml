@@ -1,6 +1,6 @@
 /// @description 
 
 // Inherit the parent event
-if(global.areaNum > global.pDamageMultiLevel){
+if(scr_multiScript(global.pDamageMultiLevel)){
 	event_inherited();
 }

@@ -9,14 +9,21 @@ if(global.ready){
 	
 	var rand = irandom_range(0,99);
 	if(rand < global.pCritChanceLevel * global.pCritChanceBase){
-		cDam = scr_damage(true);
+		cDam = scr_damage(true)*weaken;
+		if(global.multiplier > 1){
+			dText.font = fnt_brian14;
+		}
 		dText.text = string(string(cDam) + "!");
 		dText.colour = c_red;
 	}else{
-		cDam = scr_damage(false);
+		cDam = scr_damage(false)*weaken;
 		dText.font = fnt_brian14;	
+		if(global.multiplier > 1){
+			dText.font = fnt_brian18;
+		}
 		dText.text = string(cDam);
 		dText.colour = c_orange;
 	}
+	if(weaken > 1) dText.font += 1;
 	hp -= cDam;
 }

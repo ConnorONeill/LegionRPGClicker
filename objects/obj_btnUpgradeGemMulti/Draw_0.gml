@@ -1,6 +1,6 @@
 /// @description 
 
 // Inherit the parent event
-if(global.areaNum > global.gemBaseLevel){
+if(scr_multiScript(global.gemBaseLevel)){
 	event_inherited();
 }

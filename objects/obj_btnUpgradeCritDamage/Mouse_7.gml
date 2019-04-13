@@ -5,5 +5,5 @@ if (cost <= global.gems){
 	//global.wood = global.wood - cost;
 	global.pCritDamageLevel += 1;
 	//cost = global.pDamageLevel * global.pDamageLevel * 5;
-	cost = round(base*(power(1.11,global.pCritDamageLevel)));
+	cost = round(base*(power(multi,global.pCritDamageLevel)));
 }

@@ -1,0 +1,9 @@
+Problem:
+When using the ally draw event, different allies stop drawing (click events still work, can move fine)
+after a specific time (73, 96, 130, 190, 230)
+
+Cause:
+Not found
+
+Solution:
+Allies create a new object to draw them and all things related to them

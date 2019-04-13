@@ -3,5 +3,6 @@
 // Inherit the parent event
 event_inherited();
 name = "Knight";
-desc = "He a knight, the knightest knight to ever knight, man this guy shines in the night, knight of the night";
+cd = 10;
+desc = "Instantly does " + string(scr_damage(false)*(5+level)) + " (click damage*(5+level)) damage, Cooldown: " + string(cd);
 

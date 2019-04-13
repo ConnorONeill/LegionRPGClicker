@@ -4,7 +4,7 @@
 // Inherit the parent event
 base = 12;
 strRes = "G"
-multi = 1.09;
+multi = 1.13;
 variable = global.upgradeWoodGen;
 variableV = global.woodGen;
 baseV = 1;

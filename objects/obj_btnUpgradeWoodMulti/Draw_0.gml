@@ -1,5 +1,5 @@
 // Inherit the parent event
-if(global.areaNum > global.woodBaseLevel){
+if(scr_multiScript(global.woodBaseLevel)){
 	event_inherited();
 }
 
