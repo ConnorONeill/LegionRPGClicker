@@ -56,11 +56,10 @@ global.pBaseDamageLevel = 0;
 global.pDamage = global.pStartDamage*(global.pDamageLevel+1)*(global.pBaseDamageLevel+1);
 global.brown = make_color_rgb(127,63,63);
 
-
 //enemy stuff
 global.multiplier = 1;
-global.enemyHealthBase = 8;
-global.enemyHealthMulti = 1.10;
+global.enemyHealthBase = 10;
+global.enemyHealthMulti = 1.12;
 //Allies
 global.allyBaseCost = 150;
 global.allyCostMulti = 5;

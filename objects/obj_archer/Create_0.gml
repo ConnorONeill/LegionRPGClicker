@@ -4,6 +4,6 @@
 event_inherited();
 name = "Archer";
 desc = "Instantly kills a basic enemy, Cooldown: "+string(cd);
-if(level <= 15){
+if(level <= 10){
 	cd = 20-level;
-}else cd = 5;
+}else cd = 10;

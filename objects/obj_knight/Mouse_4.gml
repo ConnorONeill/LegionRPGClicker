@@ -12,7 +12,7 @@ if(active and room == rm_battle and scr_inParty(id) != -1 and global.ready){
 	}else dam = scr_damage(false)*(5+level);
 	global.enemy.hp -= dam;
 	var dText = instance_create_depth(global.enemy.x, global.enemy.y, global.enemy.depth-10, obj_disappearingText);
-	dText.text = string(damage*(5+level))+"!!!";
+	dText.text = string(dam) + "!!!";
 	dText.colour = c_red;
 	dText.font = fnt_brian24;
 	active = false;
