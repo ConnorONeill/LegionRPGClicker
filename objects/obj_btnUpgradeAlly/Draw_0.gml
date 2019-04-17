@@ -7,7 +7,7 @@ if(active){
 	draw_set_valign(fa_top);
 	draw_set_halign(fa_center);
 	draw_text(x+sprite_width/2, y+5, name);
-	var text1 = string(string(cost) + strRes);
+	var text1 = string(scr_numString(cost) +  " " + strRes);
 	var width = string_width(text1);
 	draw_text(x+sprite_width/2, y+sprite_height/2, text1);
 	draw_set_halign(fa_left);

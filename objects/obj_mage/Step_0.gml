@@ -7,4 +7,4 @@ if(global.enemy == noone and abActive){
 	depth += 1;
 	abActive = false;
 }
-desc = "Weakens the current enemy to take x" + string(1.5 + (.1*level)) + " (1.5+ .1xlevel) damage, Cooldown: " + string(cd);
+desc = "Weakens the current enemy to take x" + string(1.5 + (.2*level)) + " (1.5+ .2xlevel) damage, Cooldown: " + string(cd);

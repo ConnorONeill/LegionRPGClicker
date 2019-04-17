@@ -1,8 +1,8 @@
 /// @description 
 
 // Inherit the parent event
-base = 200;
-multi = 5;
+base = 1000;
+multi = 10;
 strRes = "G";
 variable = global.gemBaseLevel;
 resource = global.gold;

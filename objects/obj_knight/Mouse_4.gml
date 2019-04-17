@@ -8,11 +8,11 @@ if(active and room == rm_battle and scr_inParty(id) != -1 and global.ready){
 	dText.ySpd = 2;
 	var dam;
 	if(global.enemy.boss){
-		dam = (scr_damage(false)*(5+level))*2;
-	}else dam = scr_damage(false)*(5+level);
+		dam = ceil((scr_damage(false)*(5+level))*2*global.allyMultiplier*global.enemy.weaken);
+	}else dam = ceil(scr_damage(false)*(5+level)*global.allyMultiplier*global.enemy.weaken);
 	global.enemy.hp -= dam;
 	var dText = instance_create_depth(global.enemy.x, global.enemy.y, global.enemy.depth-10, obj_disappearingText);
-	dText.text = string(dam) + "!!!";
+	dText.text = scr_numString(dam) + "!!!";
 	dText.colour = c_red;
 	dText.font = fnt_brian24;
 	active = false;

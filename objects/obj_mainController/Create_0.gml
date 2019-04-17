@@ -68,6 +68,7 @@ global.allyBaseDamage = 5;
 global.allyMultiplier = 1;
 global.allyCount = 0;
 
+
 global.goldGen = 0;
 //global.allyDamageMulti = 3;
 

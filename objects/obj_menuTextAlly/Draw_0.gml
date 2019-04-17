@@ -6,7 +6,7 @@ with(obj_ally){
 	}
 }
 var tGen  = ceil(tDam/2);
-var text1 = string("Total DPS: " + string(tDam) + "   Total Gold Gen: " + string(tGen));
+var text1 = string("Total DPS: " + scr_numString(tDam) + "   Total Gold Gen: " + scr_numString(tGen));
 draw_set_color(c_white);
 draw_set_halign(fa_left);
 draw_set_font(fnt_brian12);

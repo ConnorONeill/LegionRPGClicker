@@ -1,1 +1,1 @@
-return global.resourceBase * (global.upgradeGemClick + 1) * power(2,global.gemBaseLevel);
+return 2*global.resourceBase * (global.upgradeGemGen + 1) * power(2,global.gemBaseLevel);
