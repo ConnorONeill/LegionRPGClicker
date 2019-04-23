@@ -8,9 +8,15 @@ if (room != rm_victoryScreen){
 	draw_set_font(font[0]);
 	draw_set_halign(fa_left);
 	draw_text(20,room_height - 100,global.timer)
-	draw_text(15,yPos, "Wood: " + scr_numString(global.wood));
+	var wood = draw_sprite(spr_wood,5,15,yPos);
+	draw_text(32+5+15,yPos, ": " + scr_numString(global.wood));
 	draw_set_halign(fa_right);
-	draw_text(room_width - 15, yPos, "Stone: " + scr_numString(global.gems) + "\nGold: " + scr_numString(global.gold));
+	var txt = ": " + scr_numString(global.gems);
+	var gTxt = ": " + scr_numString(global.gold);
+	draw_text(room_width - 15, yPos, ": " + scr_numString(global.gems));
+	draw_text(room_width - 15, yPos + 32, gTxt);
+	var stone = draw_sprite(spr_stone,0,room_width - 25 - 32 - string_width(txt),yPos);
+	var gold = draw_sprite(spr_gold,32,room_width - 25 - 32 - string_width(gTxt),yPos + 32);
 	//draw_text(room_width/2 + 150, yPos, "\nGold: " + string(global.gold));
 	if room == rm_battle and global.enemy != noone && global.enemy.boss draw_text(room_width/2, 20, global.enemy.cTimer);
 }else{

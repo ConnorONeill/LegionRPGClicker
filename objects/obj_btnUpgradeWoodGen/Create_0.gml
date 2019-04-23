@@ -2,9 +2,9 @@
 // You can write your code in this editor
 
 // Inherit the parent event
-base = 12;
+base = 10;
 strRes = "G"
-multi = 1.13;
+multi = 1.08;
 variable = global.upgradeWoodGen;
 variableV = global.woodGen;
 baseV = 1;

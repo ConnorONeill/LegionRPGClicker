@@ -3,7 +3,7 @@
 
 // Inherit the parent event
 base = 20;
-multi = 1.14;
+multi = 1.12;
 variable = global.pDamageLevel;
 event_inherited();
 name = "Damage Level";

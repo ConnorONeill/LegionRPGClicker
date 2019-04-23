@@ -13,7 +13,7 @@ if(global.ready){
 		if(global.multiplier > 1){
 			dText.font = fnt_brian14;
 		}
-		dText.text = string(scr_numString(cDam) + "!");
+		dText.text = string("-" + scr_numString(cDam) + "!");
 		dText.colour = c_red;
 	}else{
 		cDam = ceil(scr_damage(false)*weaken);
@@ -21,9 +21,10 @@ if(global.ready){
 		if(global.multiplier > 1){
 			dText.font = fnt_brian18;
 		}
-		dText.text = scr_numString(cDam);
+		dText.text = "-" + scr_numString(cDam);
 		dText.colour = c_orange;
 	}
 	if(weaken > 1) dText.font += 1;
 	hp -= cDam;
+	instance_create_depth(mouse_x-20,mouse_y,depth-20,obj_sword);
 }

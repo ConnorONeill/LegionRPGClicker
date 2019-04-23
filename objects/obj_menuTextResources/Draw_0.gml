@@ -7,8 +7,6 @@ var text2 = string("   Wood Click Level: " + scr_numString(global.upgradeWoodCli
 draw_text(x,y+140,text2)
 var text3 = string("Wood Multiplier: " + scr_numString(power(2,global.woodBaseLevel)));
 draw_text(x,y+170,text3);
-//var text4 = string("Stone Per Click: " + string((global.gemBaseLevel+1)*global.resourceBase*(global.upgradeGemClick+1))+"      Stone Per Second: "+string((global.gemBaseLevel+1)*global.resourceBase*(global.upgradeGemGen+1)));
-//draw_text(x,y+350,text4);
 var text4 = string("Stone Per Click: " + scr_numString(scr_stoneClick()) + "      Stone Per Second: "+scr_numString(power(2,global.gemBaseLevel)*global.resourceBase*(global.upgradeGemGen+1)));
 draw_text(x,y+310,text4);
 var text5 = string(" Stone Click Level: " + scr_numString(global.upgradeGemClick+1) + "        Stone Generation level: " + scr_numString(global.upgradeGemGen+1));

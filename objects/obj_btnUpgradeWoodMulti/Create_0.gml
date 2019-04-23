@@ -1,5 +1,5 @@
 base = 1000;
-multi = 10;
+multi = 5;
 strRes = "G";
 variable = global.woodBaseLevel;
 variableV = global.woodGen;

@@ -1,3 +1,5 @@
 /// @description 
-global.enemy.weaken = 1;
+if(global.enemy != noone){
+	global.enemy.weaken = 1;
+}
 abActive = false;

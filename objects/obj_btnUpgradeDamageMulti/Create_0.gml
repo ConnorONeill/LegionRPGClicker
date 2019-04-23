@@ -2,8 +2,8 @@
 
 // Inherit the parent event
 // Inherit the parent event
-base = 1000;
-multi = 10;
+base = 500;
+multi = 5;
 strRes = "W+S";
 variable = global.pDamageMultiLevel;
 event_inherited();

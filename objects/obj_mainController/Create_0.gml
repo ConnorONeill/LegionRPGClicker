@@ -59,14 +59,15 @@ global.brown = make_color_rgb(127,63,63);
 //enemy stuff
 global.multiplier = 1;
 global.enemyHealthBase = 10;
-global.enemyHealthMulti = 1.12;
+global.enemyHealthMulti = 1.10;
 //Allies
 global.allyBaseCost = 150;
 global.allyCostMulti = 5;
-global.allyUpgradeMulti = 1.15;
-global.allyBaseDamage = 5;
+global.allyUpgradeMulti = 1.07;
+global.allyBaseDamage = 20;
 global.allyMultiplier = 1;
 global.allyCount = 0;
+global.sword = noone;
 
 
 global.goldGen = 0;

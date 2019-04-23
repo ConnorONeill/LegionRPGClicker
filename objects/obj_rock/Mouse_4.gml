@@ -3,4 +3,6 @@
 var stonePlus = scr_stoneClick()
 global.gems += stonePlus;
 var sText = instance_create_depth(mouse_x,mouse_y,-50, obj_disappearingText);
-sText.text = string(stonePlus); 
+sText.text = " +" + scr_numString(stonePlus); 
+sText.sprite = spr_stone;
+sText.sprWid = 32;
