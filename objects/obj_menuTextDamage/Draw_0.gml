@@ -35,16 +35,24 @@ draw_sprite(spr_wood,0,x,y+ySep1*3);
 draw_text(x+32,y+ySep1*3,text7);
 
 var text7 = " Per Second: " + scr_numString(scr_woodGen());
-draw_sprite(spr_wood,0,x+xSep/2+20,y+ySep1*3);
-draw_text(x+xSep/2+20+32,y+ySep1*3,text7);
+draw_sprite(spr_wood,0,x+xSep-15,y+ySep1*3);
+draw_text(x+xSep-15+32,y+ySep1*3,text7);
 
 var text8 = " Multiplier: " + scr_numString(power(2,global.woodBaseLevel));
-draw_sprite(spr_wood,0,x+xSep+60,y+ySep1*3);
-draw_text(x+xSep+60+32,y+ySep1*3,text8);
+draw_sprite(spr_wood,0,x+xSep/2+20,y+ySep1*4+25);
+draw_text(x+xSep/2+20+32,y+ySep1*4+25,text8);
 
 var text9 = " Per Click: " + scr_numString(scr_stoneClick());
-draw_sprite(spr_stone,0,x,y+ySep1*4+25);
-draw_text(x+32,y+ySep1*4+30,text9);
+draw_sprite(spr_stone,0,x-15,y+ySep1*5+25);
+draw_text(x+32-15,y+ySep1*5+30,text9);
+
+var text10 = " Per Second: " + scr_numString(scr_woodGen());
+draw_sprite(spr_stone,0,x+xSep-15,y+ySep1*5+25);
+draw_text(x+xSep-15+32,y+ySep1*5+25,text10);
+
+var text11 = " Multiplier: " + scr_numString(power(2,global.gemBaseLevel));
+draw_sprite(spr_stone,0,x+xSep/2+20,y+ySep1*5+75);
+draw_text(x+xSep/2+20+32,y+ySep1*5+75,text11);
 
 
 
